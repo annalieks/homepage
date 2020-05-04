@@ -5,21 +5,15 @@ script:
   - npm install --global workbox-cli
   - workbox generateSW workbox-config.js
 deploy:
-  - provider: s3
+  - provider: heroku
     skip_cleanup: true
-    access_key_id: $ACCESS_KEY_ID
-    secret_access_key: $SECRET_ACCESS_KEY
-    bucket: ________-staging
-    region: eu-central-1
-    acl: public_read
+    api_key: $ACCESS_KEY_ID
+    app: annalieks-staging
     on:
       branch: develop
-  - provider: s3
+  - provider: heroku
     skip_cleanup: true
-    access_key_id: $ACCESS_KEY_ID
-    secret_access_key: $SECRET_ACCESS_KEY
-    bucket: ________-production
-    region: eu-central-1
-    acl: public_read
+    api_key: $ACCESS_KEY_ID
+    app: annalieks-production
     on:
       branch: master
