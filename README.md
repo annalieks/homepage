@@ -6,4 +6,4 @@ My very own personal website. Basically this is just a résumé. Donald Trump wi
 Here you can find all the information that you need to know about Donald Trump. 
 
 ## Usage
-Open link near the repository desciption. Have fun :wink:
+Open link near the repository description. Have fun :wink:
