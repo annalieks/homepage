@@ -66,6 +66,7 @@ body {
 	border-radius: 100%;
 	padding-right: 20px;
 	padding-top: 20px;
+	margin-right: 0.7em;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -101,10 +102,69 @@ i {
 .timeline li {
 	margin: -0.5em;
 	transition: 0.45s;
-	border-radius: 1.4em;
+	border-radius: 1.2em;
 }
 
 .timeline li:hover {
 	color: #262B83;
 	background:#FFF5F4;
+}
+
+#title {
+	width: auto;
+	background: linear-gradient(to right,#FFB0B0 10%, #D8DAEB 30%,#DDF5FE 50%, #DEE2FF 60%);
+	border-radius: 2em;
+	animation: title-effects 1.2s 2s linear;
+	background-size: 200% auto;
+	padding-right: 2em;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+@keyframes title-effects {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.timeline-headers {
+	background: #FFB0B0;
+	border-radius: 3em;
+	padding: 1em;
+	transition: 0.3s;
+}
+
+.timeline-headers:hover {
+	transform: scale(1.005);
+}
+
+.secondary-headers {
+	background: #DEE2FF;
+	border-radius: 3em;
+	padding: 1em;
+	transition: 0.3s;
+}
+
+.secondary-headers:hover {
+	transform: scale(1.005);
+}
+
+#education-list li {
+	padding: 0.5em;
+}
+
+#education-list li:hover{
+	color: #262B83;
+	background:#F7F6FC;
+}
+
+.secondary-info {
+	padding: 0.5em;
+	transition: 0.3s;
+	border-radius: 1.2em;
+}
+
+.secondary-info:hover {
+	color: #262B83;
+	background:#F7F6FC;
 }
