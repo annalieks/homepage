@@ -100,7 +100,9 @@ i {
 }
 
 .timeline li {
-	margin: -0.5em;
+	margin-left: -0.5em;
+	margin-top: -0.5em;
+	margin-bottom: -0.5em;
 	transition: 0.45s;
 	border-radius: 1.2em;
 }
