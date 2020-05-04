@@ -1,0 +1,20 @@
+#opened-list-item { 
+	overflow: hidden;
+}
+
+.closed-list {
+	margin-left: -1em;
+}
+
+.closed-list li {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+
+.timeline li:hover {
+	color: #262B83;
+	transition: 0.3s;
+	background:#FFF5F4;
+
+}
