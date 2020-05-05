@@ -151,6 +151,10 @@ i {
 	transform: scale(1.005);
 }
 
+#education-list {
+	margin-top: -0.7em;
+}
+
 #education-list li {
 	padding: 0.5em;
 }
@@ -174,4 +178,12 @@ i {
 .header-text {
 	font-size: 1.3em;
 	font-weight: 600;
+}
+
+.timeline {
+	padding-top: 0.7em;
+}
+
+.nested-list {
+	margin-top: 0.5em;
 }
