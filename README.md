@@ -7,4 +7,3 @@ Here you can find all the information that you need to know about Donald Trump.
 
 ## Usage
 Open link near the repository description. Have fun :wink:
-🧙Hocus-pocus!
