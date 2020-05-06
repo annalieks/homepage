@@ -1,9 +1,11 @@
-# Homepage
-My very own personal website. Basically this is just a résumé. Donald Trump will be glad to see it. :grinning:
+# Homepage ☀️
+My very own personal website. Basically this is just a résumé. Donald Trump will be glad to see it.
 ![gif](./assets/images/hello.gif)
 
-## Description
+## Description 😎
 Here you can find all the information that you need to know about Donald Trump. 
 
-## Usage
-Open link near the repository description. Have fun :wink:
+![screenshot](./assets/images/homepage_screenshot.png)
+
+## Usage ⭐
+Open the link near the repository description. Have fun! 😉
