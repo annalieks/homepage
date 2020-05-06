@@ -9,3 +9,7 @@ Here you can find all the information that you need to know about Donald Trump.
 
 ## Usage ⭐
 Open the link near the repository description. Have fun! 😉
+
+## Links 🌐
+- [GitHub Pages](https://annalieks.github.io/homepage/)
+- [Zeit Now](https://homepage-seven-ivory.now.sh/)
